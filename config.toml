@@ -1,0 +1,88 @@
+theme = "ayu_mirage"
+
+[editor]
+mouse = true
+true-color = true
+auto-completion = true
+line-number = "absolute"
+bufferline = "always"
+idle-timeout = 200
+text-width = 100
+
+[editor.soft-wrap]
+enable = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.lsp]
+enable = true
+display-messages = true
+snippets = true
+display-inlay-hints = false
+# auto-signature-help = true
+
+[keys.insert]
+"C-c" = "normal_mode"
+"C-s" = ["command_mode", ":w"]
+"C-u" = "completion"
+
+[keys.select]
+"$" = "goto_line_end"
+
+[keys.normal]
+backspace = [ "delete_char_backward", "insert_mode" ] # "insert_mode"
+esc = ["collapse_selection", "keep_primary_selection"]
+del = [ "delete_char_forward", "insert_mode" ]
+# ret = [ "collapse_selection", "insert_mode" ]
+ret = [ "collapse_selection", "insert_mode" ] # "keep_primary_selection",
+tab = [ "goto_next_paragraph" ]
+"S-tab" = [ "goto_prev_paragraph" ]
+# "S-ret" = "append_mode" # TODO (open github issue): Shift-Return not working
+
+";" = "repeat_last_motion"
+"{" = "goto_prev_paragraph"
+"}" = "goto_next_paragraph"
+"0" = "goto_line_start"
+"$" = "goto_line_end"
+"A-0" = "goto_line_end"
+"A-k" = [ "extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before" ]
+"A-j" = [ "extend_to_line_bounds", "delete_selection", "move_line_down", "paste_before" ]
+"C-4" = "shell_keep_pipe"
+"C-7" = "toggle_comments"
+"C-a" = "select_all"
+# "C-c" = [ "yank_main_selection_to_primary_clipboard" ]
+# "C-c" = [ "yank_joined_to_clipboard" ]
+"C-e" = "last_picker" # "file_picker"
+"C-f" = "jump_forward"
+"C-j" = "save_selection"
+"C-n" = "goto_next_buffer"
+"C-p" = "goto_previous_buffer"
+"C-s" = ":w"
+"C-x" = [ "yank_joined_to_clipboard", "delete_selection_noyank" ]
+"C-v" = "paste_primary_clipboard_after" # ":primary-clipboard-paste-replace" # "paste_after"
+# "a" = "insert_at_line_start"
+# "A" = "insert_at_line_end"
+"G" = "goto_last_line"
+# "i" = "move_line_up"
+# "I" = "extend_line_above"
+# "j" = "move_char_left"
+# "J" = "extend_prev_word_end" # "extend_prev_word_start" # "move_prev_long_word_start" #
+# "k" = "move_line_down"
+"J" = "extend_line_below"
+"K" = "extend_line_above"
+# "l" = "move_char_right"
+# "L" = "extend_next_long_word_end" # [ "extend_next_word_end" ]
+"x" = [ "extend_to_line_bounds", "delete_selection" ]
+
+# w = "extend_next_word_end"
+# b = "extend_prev_word_start"
+# X = "extend_line_above"
+# "C-tab" = "goto_next_buffer"
+# "C-S-tab" = "goto_previous_buffer"
+
