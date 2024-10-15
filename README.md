@@ -1,8 +1,9 @@
 # Helix VimCode: The Ultimate Vim + VSCode Hybrid Configuration
 
-Make the switch to Helix with familiar Vim and VSCode keybindings. Helix VimCode is designed to ease your transition, offering a comfortable blend of shortcuts from both Vim and VSCode, so you can keep coding the way you like.
+Make the switch to the Helix Editor with familiar Vim and VSCode keybindings. Helix VimCode is designed to ease your transition, offering a comfortable blend of shortcuts from both Vim and VSCode, so you can keep coding the way you like.
 
-*Note: Depending on your OS/Terminal not all Shortcuts might work. Not all Vim/VSCode Shortcuts are included (yet)*
+*Note: Depending on your OS/Terminal not all Shortcuts might work.*  
+*Note: Not all Vim/VSCode Shortcuts are included (yet)*
 
 ## Features
 - 🖱 Vim Mode: Navigate and edit with the powerful Vim-like commands you're used to.
