@@ -34,6 +34,8 @@ display-inlay-hints = false
 
 [keys.select]
 "$" = "goto_line_end"
+# "f" = [ "collapse_selection" ]
+# "F" = [ "collapse_selection" ]
 
 [keys.normal]
 backspace = [ "delete_char_backward", "insert_mode" ] # "insert_mode"
@@ -73,6 +75,11 @@ tab = [ "goto_next_paragraph" ]
 # "a" = "insert_at_line_start"
 # "A" = "insert_at_line_end"
 "G" = "goto_last_line"
+# "w" = [ "move_next_word_start", "collapse_selection" ]
+"f" = [ "find_next_char", "collapse_selection" ] # NOT WORKING YET (https://github.com/helix-editor/helix/pull/4709)
+"F" = [ "find_prev_char", "collapse_selection" ] # NOT WORKING YET
+"t" = [ "find_till_char", "collapse_selection" ] # NOT WORKING YET
+"T" = [ "till_prev_char", "collapse_selection" ] # NOT WORKING YET
 # "f" = [ "find_next_char", "collapse_selection", "exit_select_mode", "remove_primary_selection" ]
 # "F" = [ "find_prev_char", "collapse_selection", "exit_select_mode", "remove_primary_selection" ]
 # "i" = "move_line_up"
