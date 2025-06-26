@@ -23,10 +23,10 @@ Feel free to tweak the config to suit your needs!
 
 ## Quick Overview of Shortcuts
 
-**LLM Features** 
-g+x = Explain the currently selected text/code (as comments) 
-g+q = Fix the currently selected text/code 
-g+t = Complete the currently selected text/code 
+**LLM Features**  
+g+x = Explain the currently selected text/code (as comments)  
+g+q = Fix the currently selected text/code  
+g+t = Complete the currently selected text/code  
 
 **VSCode-like Shortcuts:**  
 Ctrl+a = Select all 
