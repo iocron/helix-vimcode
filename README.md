@@ -23,14 +23,14 @@ Feel free to tweak the config to suit your needs!
 
 ## Quick Overview of Shortcuts
 
-**LLM Features**
-g+x = Explain the currently selected text/code (as comments)
-g+q = Fix the currently selected text/code
-g+t = Complete the currently selected text/code
+**LLM Features** 
+g+x = Explain the currently selected text/code (as comments) 
+g+q = Fix the currently selected text/code 
+g+t = Complete the currently selected text/code 
 
 **VSCode-like Shortcuts:**  
-Ctrl+a = Select all  
-Ctrl+e = Open last picker  
+Ctrl+a = Select all 
+Ctrl+e = Open last picker 
 Ctrl+n = Jump buffer/tab forward  
 Ctrl+p = Jump buffer/tab backward  
 Ctrl+s = Save current file/buffer  
