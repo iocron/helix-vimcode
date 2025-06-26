@@ -11,9 +11,22 @@ Make the switch to the Helix Editor with familiar Vim and VSCode keybindings. He
 - ⚙️ Custom Shortcuts: For simplicity and faster switches between insert/normal mode.
 
 ## Installation
-Put the config.toml into your helix config directory (~/.config/helix) or use only parts of it. Feel free to tweak the config to suit your needs!
+Download the config.toml into your helix config directory (~/.config/helix) or clone the entire repo (if you want to use the llm-feature):
+`git clone git@github.com:iocron/helix-vimcode.git ~/.config/helix`
+
+For the LLM Features (optional) to work you need to:
+- Install Ollama (https://ollama.com/download)
+- Install Mods (https://github.com/charmbracelet/mods?tab=readme-ov-file#installation)
+- Pull the Model "qwen2.5-coder": `ollama pull qwen2.5-coder`
+
+Feel free to tweak the config to suit your needs!
 
 ## Quick Overview of Shortcuts
+
+**LLM Features**
+g+x = Explain the currently selected text/code (as comments)
+g+q = Fix the currently selected text/code
+g+t = Complete the currently selected text/code
 
 **VSCode-like Shortcuts:**  
 Ctrl+a = Select all  

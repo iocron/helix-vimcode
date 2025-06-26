@@ -37,6 +37,11 @@ display-inlay-hints = false
 # "f" = [ "collapse_selection" ]
 # "F" = [ "collapse_selection" ]
 
+[keys.normal.g]
+q = ":pipe ~/.config/helix/llm-query.sh fix"
+x = ":pipe ~/.config/helix/llm-query.sh explain"
+t = ":pipe ~/.config/helix/llm-query.sh complete"
+
 [keys.normal]
 backspace = [ "delete_char_backward", "insert_mode" ] # "insert_mode"
 esc = ["collapse_selection", "keep_primary_selection"]
