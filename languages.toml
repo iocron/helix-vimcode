@@ -18,14 +18,15 @@ roots = []
 # auto-format = true
 indent = { tab-width = 4, unit = "    " }
 
-[[language]]
-name = "vue"
-auto-format = true
-formatter = { command = "prettier", args = ["--parser", "vue"] }
-language-servers = ["typescript-language-server"]
+# CUSTOM LSP (use your pkg manager instead, e.g. brew install vue-language-server, helix will auto-detect it usually)
+# [[language]]
+# name = "vue"
+# auto-format = true
+# formatter = { command = "prettier", args = ["--parser", "vue"] }
+# language-servers = ["typescript-language-server"]
 
-[[language-server.typescript-language-server.config.plugins]]
-name = "@vue/typescript-plugin"
-location = "/opt/homebrew/lib/node_modules/@vue/language-server" # INFO: Replace PATH with your LSP
-languages = ["vue"]
+# [[language-server.typescript-language-server.config.plugins]]
+# name = "@vue/typescript-plugin"
+# location = "/opt/homebrew/lib/node_modules/@vue/language-server" # INFO: Replace PATH with your LSP
+# languages = ["vue"]
 
