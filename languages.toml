@@ -1,5 +1,14 @@
 # INFO: Checkout https://github.com/helix-editor/helix/wiki/Language-Server-Configurations for more LSP Configuration/Setup
 
+[language-server.godot]
+command = "nc" 
+args = [ "127.0.0.1", "6005"]
+
+[[language]]
+name = "gdscript"
+language-servers = [ "godot" ]
+auto-format = false
+
 [[language]]
 name = "html"
 scope = "text.html.basic"
